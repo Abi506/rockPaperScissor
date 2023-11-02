@@ -1,0 +1,76 @@
+.game-main-container {
+  height: 100vh;
+  background-color: #223a5f;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header-container {
+  border: 2px solid white;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  width: 700px;
+}
+.game-name-container {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  justify-content: center;
+  color: white;
+  font-family: 'Bree Serif';
+}
+.score-container {
+  width: 100px;
+  text-align: center;
+  border-radius: 5px;
+  width: 130px;
+  background-color: white;
+}
+.close-button-container {
+  text-align: right;
+  padding: 10px;
+}
+.trigger-button {
+  border: none;
+  cursor: pointer;
+  background: transparent;
+}
+.close-icon {
+  font-size: 30px;
+}
+.rules-image {
+  width: 400px;
+}
+
+.image-holder {
+  width: 700px;
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.each-list {
+  width: 300px;
+}
+.each-image {
+  width: 250px;
+  cursor: pointer;
+}
+.rematch-button-container {
+  text-align: center;
+}
+.result {
+  color: white;
+}
+.button-styles {
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 7px;
+  padding: 10px;
+  width: 130px;
+  cursor: pointer;
+}
